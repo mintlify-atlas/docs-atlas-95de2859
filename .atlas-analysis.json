@@ -1,0 +1,254 @@
+{
+  "projectType": "sdk-library",
+  "projectName": "Effect",
+  "projectDescription": "A powerful TypeScript framework for building robust, production-ready applications with functional effect systems",
+  "theme": "aspen",
+  "primaryColor": "#7c3aed",
+  "lightColor": "#a78bfa",
+  "darkColor": "#5b21b6",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "introduction",
+              "installation",
+              "quickstart"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "core/effect",
+              "core/context",
+              "core/layer",
+              "core/fiber",
+              "core/stream",
+              "core/schedule",
+              "core/scope",
+              "core/schema"
+            ]
+          },
+          {
+            "group": "Data Types",
+            "pages": [
+              "data-types/either",
+              "data-types/option",
+              "data-types/array",
+              "data-types/chunk",
+              "data-types/hashmap",
+              "data-types/hashset"
+            ]
+          },
+          {
+            "group": "Error Handling",
+            "pages": [
+              "error-handling/cause",
+              "error-handling/exit",
+              "error-handling/defects"
+            ]
+          },
+          {
+            "group": "Concurrency",
+            "pages": [
+              "concurrency/fiber",
+              "concurrency/deferred",
+              "concurrency/ref",
+              "concurrency/semaphore",
+              "concurrency/queue"
+            ]
+          },
+          {
+            "group": "Resource Management",
+            "pages": [
+              "resources/scope",
+              "resources/pool",
+              "resources/cache"
+            ]
+          },
+          {
+            "group": "Testing",
+            "pages": [
+              "testing/test-services",
+              "testing/test-clock",
+              "testing/property-testing"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Platform",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "platform/introduction"
+            ]
+          },
+          {
+            "group": "HTTP API",
+            "pages": [
+              "platform/http-api/overview",
+              "platform/http-api/endpoints",
+              "platform/http-api/groups",
+              "platform/http-api/server",
+              "platform/http-api/client",
+              "platform/http-api/middleware"
+            ]
+          },
+          {
+            "group": "Platform Runtimes",
+            "pages": [
+              "platform/node",
+              "platform/bun",
+              "platform/browser"
+            ]
+          },
+          {
+            "group": "Database",
+            "pages": [
+              "platform/sql/overview",
+              "platform/sql/queries",
+              "platform/sql/migrations"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Ecosystem",
+        "groups": [
+          {
+            "group": "CLI",
+            "pages": [
+              "ecosystem/cli/overview",
+              "ecosystem/cli/commands",
+              "ecosystem/cli/arguments",
+              "ecosystem/cli/options"
+            ]
+          },
+          {
+            "group": "AI",
+            "pages": [
+              "ecosystem/ai/overview",
+              "ecosystem/ai/openai",
+              "ecosystem/ai/anthropic",
+              "ecosystem/ai/amazon-bedrock",
+              "ecosystem/ai/google"
+            ]
+          },
+          {
+            "group": "Distributed Systems",
+            "pages": [
+              "ecosystem/cluster",
+              "ecosystem/rpc",
+              "ecosystem/workflow"
+            ]
+          },
+          {
+            "group": "Observability",
+            "pages": [
+              "ecosystem/opentelemetry",
+              "ecosystem/logging",
+              "ecosystem/metrics"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Core",
+            "pages": [
+              "api/effect",
+              "api/context",
+              "api/layer",
+              "api/fiber",
+              "api/stream",
+              "api/schedule",
+              "api/scope",
+              "api/schema"
+            ]
+          },
+          {
+            "group": "Data Structures",
+            "pages": [
+              "api/array",
+              "api/chunk",
+              "api/either",
+              "api/option",
+              "api/hashmap",
+              "api/hashset",
+              "api/list",
+              "api/tree"
+            ]
+          },
+          {
+            "group": "Utilities",
+            "pages": [
+              "api/function",
+              "api/predicate",
+              "api/duration",
+              "api/datetime",
+              "api/random",
+              "api/string",
+              "api/number"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Type-safe effect system for managing side effects and async operations",
+    "Comprehensive error handling with Cause data type",
+    "Lightweight fiber-based concurrency model",
+    "Powerful Schema library for validation and transformation",
+    "Dependency injection with Context and Layer",
+    "Resource-safe management with automatic cleanup",
+    "Composable scheduling for retry and repeat logic",
+    "Stream processing for async, event-driven data",
+    "Platform abstractions for Node.js, Bun, and browsers",
+    "Built-in testing utilities and property-based testing",
+    "CLI framework for building command-line applications",
+    "HTTP API framework with automatic documentation",
+    "SQL database utilities with type-safe queries",
+    "OpenTelemetry integration for observability",
+    "Distributed computing with cluster and RPC support"
+  ],
+  "publicApiSurface": [
+    "Effect",
+    "Context",
+    "Layer",
+    "Fiber",
+    "Stream",
+    "Schedule",
+    "Scope",
+    "Schema",
+    "Either",
+    "Option",
+    "Array",
+    "Chunk",
+    "HashMap",
+    "HashSet",
+    "Cause",
+    "Exit",
+    "Deferred",
+    "Ref",
+    "Semaphore",
+    "Queue",
+    "Pool",
+    "Cache",
+    "Duration",
+    "DateTime",
+    "Config",
+    "Runtime",
+    "FiberRef",
+    "Metrics",
+    "Logger",
+    "Tracer"
+  ]
+}
